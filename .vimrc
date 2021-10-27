@@ -14,7 +14,7 @@ iabbrev bhpp class Sample {<CR><CR>
 \<Tab><Tab>virtual ~Sample();<CR><CR>
 \<Tab><Tab>operator=(const Sample& rhs);<CR><CR>
 \<Tab>private:<CR><CR>
-\<Tab><Tab>// Attributes<CR><CR>
+\<Tab><Tab>// internal<CR><CR>
 \};
 
 iabbrev bcpp #include "Sample.hpp"<CR><CR>
