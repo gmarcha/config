@@ -3,6 +3,9 @@ syntax on
 set mouse=a
 set nu
 
+// Vim macros (function as VSCode Snippets)
+// - Useful to write a lot of boilerplate code in terminal.
+
 iabbrev di #ifndef SAMPLE_HPP<CR>
 \# define SAMPLE_HPP<CR><CR><CR><CR>
 \#endif
