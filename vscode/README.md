@@ -1,3 +1,10 @@
+# How to use snippets ?
+
+- `json.json` allows you to create snippets with a json snippet. Very efficient.
+- `yaml.json` is used to create Swagger specfication template. Could be use to generate docker-compose file too.
+- `cpp.json` provides basic canonical class. Should be improve.
+- `vue.json` could be really useful.
+
 # How to install Synthwave x Fluoromachine theme for VS Code ?
 
 - Go find extension `webrender.synthwave-x-fluoromachine` in Visual Studio Code.
