@@ -1,0 +1,46 @@
+{
+	"Class Snippet": {
+		"prefix": ["basicClass"],
+		"body": [
+
+			"class ${1:Sample} {\n",
+
+			"\tpublic:\n",
+
+				"\t\t// Constructors and destructor",
+				"\t\t${1:Sample}(${2:void});",
+				"\t\t${1:Sample}(const ${1:Sample} &src);",
+				"\t\tvirtual ~${1:Sample}();",
+			"",
+				"\t\t// Operator overloads",
+				"\t\t${1:Sample}&\toperator=(const ${1:Sample} &rhs);",
+			"",
+				"\t\t// Member functions",
+			"",
+
+			"\tprivate:\n",
+
+				"\t\t${1:Sample}();",
+			"",
+				"\t\t// Internal functions",
+			"",
+				"\t\t// Attributes",
+			"",
+			"};"
+		],
+		"description": "Class Basic Snippet"
+	},
+
+	"Inclusion Protection": {
+		"prefix": ["inclusionProtection"],
+		"body": [
+			"#ifndef ${1:FILENAME}_HPP",
+			"# define ${1:FILENAME}_HPP",
+			"",
+			"",
+			"",
+			"#endif // ${1:FILENAME}_HPP\n"
+		],
+		"description": "Double inclusion protection for cpp headers"
+	}
+}
